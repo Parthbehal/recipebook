@@ -4,12 +4,14 @@ import AddRecipe from './pages/AddRecipe';
 import RecipeDetail from './pages/RecipeDetail';
 import Navbar from './components/Navbar';
 import EditRecipe from './pages/EditRecipe';
+import New from './pages/new';
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/s" element={<New/>} />
         <Route path="/add" element={<AddRecipe />} />
         <Route path="/recipes/:id" element={<RecipeDetail />} />
         <Route path="/edit/:id" element={<EditRecipe />} />
