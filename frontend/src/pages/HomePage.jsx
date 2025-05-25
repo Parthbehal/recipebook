@@ -17,7 +17,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/recipes')
+    fetch('https://recipebook-hxvc.onrender.com/api/recipes')
       .then((response) => response.json())
       .then((data) => {
         setRecipes(data);

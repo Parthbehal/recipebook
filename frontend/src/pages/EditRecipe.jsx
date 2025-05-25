@@ -21,7 +21,7 @@ const EditRecipe = () => {
 
   // Fetch existing recipe details on mount
   useEffect(() => {
-    fetch(`http://localhost:3000/api/recipes/${id}`)
+    fetch(`https://recipebook-hxvc.onrender.com/api/recipes/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setFormData({
@@ -49,7 +49,7 @@ const EditRecipe = () => {
     };
 
     try {
-      const res = await fetch(`http://localhost:3000/api/recipes/${id}`, {
+      const res = await fetch(`https://recipebook-hxvc.onrender.com/api/recipes/${id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(updatedData),

@@ -10,7 +10,7 @@ const RecipeDetails = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/api/recipes/`)
+    fetch(`https://recipebook-hxvc.onrender.com/api/recipes/`)
       .then((res) => {
         if (!res.ok) throw new Error('Failed to fetch recipe');
         return res.json();

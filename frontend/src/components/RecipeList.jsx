@@ -10,7 +10,7 @@ const RecipeList = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/recipes')
+    fetch('https://recipebook-hxvc.onrender.com/api/recipes')
       .then((res) => res.json())
       .then((data) => {
         setRecipes(data);
