@@ -59,9 +59,15 @@ _Add screenshots here_
 
 ```md
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./screenshots/home.png)
+
 ### Add Recipe Page
 ![Add Recipe Page](./screenshots/add-recipe.png)
 
 ### Recipe List
 ![Recipe List](./screenshots/recipe-list.png)
+
 
