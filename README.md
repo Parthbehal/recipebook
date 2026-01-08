@@ -58,6 +58,10 @@ This project solves that by providing an intuitive platform where users can easi
 _Add screenshots here_
 
 ```md
-![Home Page]<img width="1364" height="768" alt="Flavoriz and 1 more page - Personal - Microsoft​ Edge 08-01-2026 03_19_29" src="https://github.com/user-attachments/assets/8916d455-871b-4051-b7cc-4be707a4c094" />
 
-![Add Recipe](./screenshots/add-recipe.png)
+### Add Recipe Page
+![Add Recipe Page](./screenshots/add-recipe.png)
+
+### Recipe List
+![Recipe List](./screenshots/recipe-list.png)
+
