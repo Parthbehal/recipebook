@@ -23,7 +23,7 @@ function MyRecipes() {
         setError('');
 
         const response = await fetch(
-          'http://localhost:3000/api/recipes/my',
+          'https://recipebook-1-gjz7.onrender.com/api/recipes/my',
           {
             headers: {
               Authorization: `Bearer ${token}`,

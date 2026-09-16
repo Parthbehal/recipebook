@@ -31,7 +31,7 @@ function Profile() {
         setError('');
 
        const response = await fetch(
-  `http://localhost:3000/api/profiles/${userId}`
+  `https://recipebook-1-gjz7.onrender.com/api/profiles/${userId}`
 );
 
         const data = await response.json();

@@ -30,7 +30,7 @@ const TodaysSpecial = () => {
         setError('');
 
         const response = await fetch(
-          'http://localhost:3000/api/recipes/todays-special'
+          'https://recipebook-1-gjz7.onrender.com/api/recipes/todays-special'
         );
 
         if (!response.ok) {

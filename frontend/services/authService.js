@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api/auth';
+const API_URL = 'https://recipebook-1-gjz7.onrender.com/api/auth';
 
 // Register a new user
 export const registerUser = async (userData) => {

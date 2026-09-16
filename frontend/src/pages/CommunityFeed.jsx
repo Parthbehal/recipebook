@@ -115,7 +115,7 @@ const CommunityFeed = () => {
         setError('');
 
         const response = await fetch(
-          'http://localhost:3000/api/recipes/feed'
+          'https://recipebook-1-gjz7.onrender.com/api/recipes/feed'
         );
 
         if (!response.ok) {

@@ -18,7 +18,7 @@ const Leaderboard = () => {
         setError('');
 
         const response = await fetch(
-          'http://localhost:3000/api/leaderboard'
+          'https://recipebook-1-gjz7.onrender.com/api/leaderboard'
         );
 
         if (!response.ok) {

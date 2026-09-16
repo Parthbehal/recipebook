@@ -30,7 +30,7 @@ const Trending = () => {
         setError('');
 
         const response = await fetch(
-          'http://localhost:3000/api/recipes/trending'
+          'https://recipebook-1-gjz7.onrender.com/api/recipes/trending'
         );
 
         if (!response.ok) {

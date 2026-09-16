@@ -34,7 +34,7 @@
 //         setLoading(true);
 
 //         const response = await fetch(
-//           'http://localhost:3000/api/recipes'
+//           'https://recipebook-1-gjz7.onrender.com/api/recipes'
 //         );
 
 //         if (!response.ok) {
@@ -487,7 +487,7 @@ const Home = () => {
         setLoading(true);
 
         const response = await fetch(
-          'http://localhost:3000/api/recipes'
+          'https://recipebook-1-gjz7.onrender.com/api/recipes'
         );
 
         if (!response.ok) {

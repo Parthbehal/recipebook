@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://recipebook-1-gjz7.onrender.com/api';
 
 // Helper for authenticated requests
 const authHeaders = (token) => ({

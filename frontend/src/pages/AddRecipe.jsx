@@ -56,7 +56,7 @@ const AddRecipe = () => {
 
     setLoading(true);
     try {
-      const res = await fetch('http://localhost:3000/api/recipes', {
+      const res = await fetch('https://recipebook-1-gjz7.onrender.com/api/recipes', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
